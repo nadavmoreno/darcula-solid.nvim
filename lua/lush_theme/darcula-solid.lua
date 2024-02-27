@@ -61,7 +61,7 @@ local purple  = hsl(279, 30, 62)
 local magenta = hsl(310,  40, 70)
 
 
-return lush(function(injected_functions) 
+return lush(function(injected_functions)
 local sym = injected_functions.sym
 return {
 Normal       { fg=fg,      bg=bg };
@@ -274,6 +274,9 @@ sym "@text.literal"             { String };                -- Literal text
 sym "@text.uri"                 { fg=green, gui=it };      -- Any URI like a link or email
 
 sym "@error"                    { fg=red };                -- syntax/parser errors.
+
+
+sym "@import_statement"         { fg=red };
 
 
 -- Other stuff
