@@ -219,7 +219,7 @@ Todo       { gui=bf };  --  anything that needs extra attention
 sym "@constant"                 { Constant };
 sym "@constant.builtin"         { Constant,   gui=it };    -- constant that are built in the language: `nil` in Lua.
 sym "@constant.macro"           { Constant,   gui=bf };    -- constants that are defined by macros: `NULL` in C.
-sym "@number"                   { Number };
+sym "@number"                   { fg = red };
 sym "@float"                    { Float };
 sym "@boolean"                  { Boolean };
 sym "@character"                { Character };
