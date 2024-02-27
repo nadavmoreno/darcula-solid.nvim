@@ -219,7 +219,7 @@ Todo       { gui=bf };  --  anything that needs extra attention
 sym "@constant"                 { Constant };
 sym "@constant.builtin"         { Constant,   gui=it };    -- constant that are built in the language: `nil` in Lua.
 sym "@constant.macro"           { Constant,   gui=bf };    -- constants that are defined by macros: `NULL` in C.
-sym "@number"                   { fg = red };
+sym "@number"                   { Number };
 sym "@float"                    { Float };
 sym "@boolean"                  { Boolean };
 sym "@character"                { Character };
@@ -276,7 +276,7 @@ sym "@text.uri"                 { fg=green, gui=it };      -- Any URI like a lin
 sym "@error"                    { fg=red };                -- syntax/parser errors.
 
 
-sym "@import_statement"         { fg=red };
+sym "@type.tsx"         { fg= red };
 
 
 -- Other stuff
