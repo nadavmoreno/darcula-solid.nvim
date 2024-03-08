@@ -276,7 +276,7 @@ sym "@text.uri"                 { fg=green, gui=it };      -- Any URI like a lin
 sym "@error"                    { fg=red };                -- syntax/parser errors.
 
 
-sym "@type.tsx"         { fg= red };
+sym "@tag.builtin.tsx"         { fg= red };
 
 
 -- Other stuff
