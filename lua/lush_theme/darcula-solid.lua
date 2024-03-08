@@ -59,7 +59,7 @@ local teal    = hsl(150,  40, 50)
 local cyan    = hsl(180, 58, 38)
 
 local blue    = hsl(215, 80, 63).li(10)
-local purple  = hsl(279, 30, 62)
+local purple  = hsl(279, 23, 56)
 local magenta = hsl(310,  40, 70)
 
 
@@ -280,9 +280,10 @@ sym "@error"                    { fg=red };                -- syntax/parser erro
 
 sym "@tag.tsx"                 { fg=turquoise };
 sym "@tag.builtin.tsx"         { fg=turquoise };
-sym "@tag.delimiter.tsx"       { fg= yellow };
-sym "@tag.attribute.tsx"       { fg= white };
-
+sym "@tag.delimiter.tsx"       { fg=yellow };
+sym "@tag.attribute.tsx"       { fg=white };
+sym "@lsp.type.function.typescriptreact"  { fg=yellow };
+sym "lsp.mod.defaultLibrary.typescriptreact" { fg=purple };
 
 -- Other stuff
 HelpHyperTextJump {fg=yellow};
