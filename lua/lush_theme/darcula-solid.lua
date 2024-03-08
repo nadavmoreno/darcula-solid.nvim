@@ -278,6 +278,7 @@ sym "@text.uri"                 { fg=green, gui=it };      -- Any URI like a lin
 sym "@error"                    { fg=red };                -- syntax/parser errors.
 
 
+-- TS and TSX
 sym "@tag.tsx"                 { fg=turquoise };
 sym "@variable.tsx"            { fg=yellow };
 sym "@tag.builtin.tsx"         { fg=turquoise };
@@ -287,6 +288,9 @@ sym "@lsp.type.function.typescriptreact"  { fg=yellow };
 sym "@lsp.typemod.variable.defaultLibrary.typescriptreact" { fg=purple };
 sym "@lsp.typemod.member.defaultLibrary.typescriptreact"   { fg=yellow };
 sym "@lsp.type.member.typescriptreact"	{ fg=yellow };
+sym "@variable.typescript"	{ fg=yellow };
+sym "@lsp.type.function.typescript"	{ fg=yellow };
+sym "@lsp.type.member.typescript"	{ fg=purple };
 
 -- Other stuff
 HelpHyperTextJump {fg=yellow};
