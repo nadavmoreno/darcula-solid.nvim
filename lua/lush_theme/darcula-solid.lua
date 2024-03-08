@@ -279,6 +279,7 @@ sym "@error"                    { fg=red };                -- syntax/parser erro
 
 
 sym "@tag.tsx"                 { fg=turquoise };
+sym "@variable.tsx"            { fg=yellow };
 sym "@tag.builtin.tsx"         { fg=turquoise };
 sym "@tag.delimiter.tsx"       { fg=yellow };
 sym "@tag.attribute.tsx"       { fg=white };
