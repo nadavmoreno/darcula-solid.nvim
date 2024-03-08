@@ -289,7 +289,7 @@ sym "@lsp.typemod.variable.defaultLibrary.typescriptreact" { fg=purple };
 sym "@lsp.typemod.member.defaultLibrary.typescriptreact"   { fg=yellow };
 sym "@lsp.type.member.typescriptreact"	{ fg=yellow };
 sym "@variable.typescript"	{ fg=yellow };
-sym "@lsp.type.function.typescript"	{ fg=yellow };
+-- sym "@lsp.type.function.typescript"	{ fg=yellow };
 sym "@lsp.type.member.typescript"	{ fg=purple };
 
 -- Other stuff
