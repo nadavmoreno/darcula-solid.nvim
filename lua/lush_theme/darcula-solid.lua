@@ -288,10 +288,10 @@ sym "@lsp.type.function.typescriptreact"  { fg=yellow };
 sym "@lsp.typemod.variable.defaultLibrary.typescriptreact" { fg=purple };
 sym "@lsp.typemod.member.defaultLibrary.typescriptreact"   { fg=yellow };
 sym "@lsp.type.member.typescriptreact"	{ fg=yellow };
-sym "@variable.typescript"	{ fg=yellow };
 -- sym "@lsp.type.function.typescript"	{ fg=yellow };
 sym "@function.method.call.typescript"	{ fg=purple };
 sym "@lsp.type.member.typescript"	{ fg=purple };
+sym "@variable.typescript"	{ fg=yellow };
 
 -- Other stuff
 HelpHyperTextJump {fg=yellow};
