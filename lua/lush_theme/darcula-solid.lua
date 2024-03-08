@@ -47,12 +47,14 @@ local faded   = fg.darken(45)    -- non-important text elements
 local pop     = c7
 
 -- Color palette
+local white   = hsl(0, 0, 73)
+local turquoise = hsl(170, 67, 45)
 local red     = hsl(1, 77, 59)
 local salmon  = hsl(10,  90, 70)
 local orange  = hsl(27, 61, 50)
 local yellow  = hsl(37, 100, 71)
 
-local green   = hsl(83, 27, 53)
+local green   = hsl(98, 21, 44)
 local teal    = hsl(150,  40, 50)
 local cyan    = hsl(180, 58, 38)
 
@@ -276,9 +278,10 @@ sym "@text.uri"                 { fg=green, gui=it };      -- Any URI like a lin
 sym "@error"                    { fg=red };                -- syntax/parser errors.
 
 
-sym "@tag.tsx"                 { fg=hsl(170, 67, 45) };
-sym "@tag.builtin.tsx"         { fg=hsl(170, 67, 45) };
+sym "@tag.tsx"                 { fg=turquoise };
+sym "@tag.builtin.tsx"         { fg=turquoise };
 sym "@tag.delimiter.tsx"       { fg= yellow };
+sym "@tag.attribute.tsx"       { fg= white };
 
 
 -- Other stuff
