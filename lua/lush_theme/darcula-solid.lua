@@ -262,7 +262,7 @@ sym "@punctuation.bracket"      { fg=fg };                 -- brackets and paren
 sym "@punctuation.special"      { Delimiter };             -- special punctutation that does not fall in the catagories before.
 
 sym "@comment"                  { Comment };
-sym "@tag"                      { Tag };                   -- Tags like html tag names.
+sym "@tag.html"                 { Tag };                   -- Tags like html tag names.
 sym "@tag.delimiter"            { Special };               -- Tag delimiter like < > /
 sym "@text"                     { fg=fg };
 sym "@text.emphasis"            { fg=fg,     gui=it };
@@ -276,7 +276,8 @@ sym "@text.uri"                 { fg=green, gui=it };      -- Any URI like a lin
 sym "@error"                    { fg=red };                -- syntax/parser errors.
 
 
-sym "@tag.builtin.tsx"         { fg= red };
+sym "@tag.tsx"                 { fg=hsl(170, 67, 45) };
+sym "@tag.builtin.tsx"         { fg=hsl(170, 67, 45) };
 
 
 -- Other stuff
