@@ -197,7 +197,7 @@ PreCondit      { PreProc };    -- preprocessor #if, #else, #endif, etc.
 
 Type           { fg=fg };
 StorageClass   { fg=magenta };    -- static, register, volatile, etc.
-Structure      { fg=magenta };    -- struct, union, enum, etc.
+Structure      { fg=white };    -- struct, union, enum, etc.
 Typedef        { Type };
 
 Special        { fg=orange };  -- (preferred) any special symbol
