@@ -278,7 +278,7 @@ sym "@error"                    { fg=red };                -- syntax/parser erro
 
 sym "@tag.tsx"                 { fg=hsl(170, 67, 45) };
 sym "@tag.builtin.tsx"         { fg=hsl(170, 67, 45) };
-sym "@tag.delimeter.tsx"       { fg= yellow };
+sym "@tag.delimiter.tsx"       { fg= yellow };
 
 
 -- Other stuff
