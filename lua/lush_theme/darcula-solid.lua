@@ -286,6 +286,7 @@ sym "@tag.attribute.tsx"       { fg=white };
 sym "@lsp.type.function.typescriptreact"  { fg=yellow };
 sym "@lsp.typemod.variable.defaultLibrary.typescriptreact" { fg=purple };
 sym "@lsp.typemod.member.defaultLibrary.typescriptreact"   { fg=yellow };
+sym "@lsp.type.member.typescriptreact"	{ fg=yellow };
 
 -- Other stuff
 HelpHyperTextJump {fg=yellow};
