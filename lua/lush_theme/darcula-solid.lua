@@ -283,7 +283,7 @@ sym "@tag.builtin.tsx"         { fg=turquoise };
 sym "@tag.delimiter.tsx"       { fg=yellow };
 sym "@tag.attribute.tsx"       { fg=white };
 sym "@lsp.type.function.typescriptreact"  { fg=yellow };
-sym "@variable.builtin.tsx" { fg=purple };
+sym "@lsp.typemod.variable.defaultLibrary.typescriptreact" { fg=purple };
 
 -- Other stuff
 HelpHyperTextJump {fg=yellow};
